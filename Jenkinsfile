@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('hello'){
             step{
-                echo 'hello from main '
+                echo 'hello from b1 '
             }
         }
     }
