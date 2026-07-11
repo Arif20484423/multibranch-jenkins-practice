@@ -7,5 +7,11 @@ pipeline{
                 echo 'hello from main 5'
             }
         }
+        stage('bye'){
+            steps{
+                echo 'bye from b2 1'
+            }
+        }
+        
     }
 }
